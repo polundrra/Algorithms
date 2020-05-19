@@ -1,3 +1,5 @@
+package unionfind;
+
 import java.util.Scanner;
 
 public class QuickUnionUF {
