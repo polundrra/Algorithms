@@ -1,8 +1,5 @@
 package unionfind.interviewquestions;
 
-
-import java.util.Scanner;
-
 public class SuccessorWithDelete {
     UFWithFindLargest uf;
 
@@ -34,7 +31,4 @@ public class SuccessorWithDelete {
         System.out.println(suc.successor(4));
         System.out.println(suc.successor(6));
     }
-
-
-
 }
