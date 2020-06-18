@@ -15,7 +15,7 @@ public class Stack<Item> implements Iterable<Item> {
         n = 0;
     }
 
-    private class Node<Item> {
+    private static class Node<Item> {
         Item item;
         Node<Item> next;
     }
@@ -99,7 +99,7 @@ public class Stack<Item> implements Iterable<Item> {
 
     public static void main(String[] args) throws FileNotFoundException {
         Stack<String> stack = new Stack<>();
-        File tobe = new File("inputForStack.txt");
+        File tobe = new File("res/Stack.txt");
         Scanner sc = new Scanner(tobe);
         while (sc.hasNext()) {
             String item = sc.next();

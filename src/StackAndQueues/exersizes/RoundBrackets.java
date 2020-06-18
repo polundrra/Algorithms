@@ -1,8 +1,8 @@
-package StackAndQueues;
+package StackAndQueues.exersizes;
 
 import java.util.Stack;
 
-public class Main {
+public class RoundBrackets {
 
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
