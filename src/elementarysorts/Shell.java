@@ -37,7 +37,7 @@ public class Shell {
     }
 
     public static void main(String[] args) {
-        String line = "S O R T E X A M P L E";
+        String line = "bed bug dad yes zoo ... all bad yet";
         String[] words = line.split(" ");
         Selection.sort(words);
         show(words);
